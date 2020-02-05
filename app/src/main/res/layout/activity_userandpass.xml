@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:fontFamily="@font/cabin_regular"
+            android:text="Close"
+            android:textAllCaps="false"
+            android:textColor="@color/black1"
+            android:textSize="22sp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="227px"
+        android:layout_height="54px"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Sign in"
+        android:fontFamily="@font/antic_reguler"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/reg2"
+        android:fontFamily="@font/cabin_regular"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Email address"
+        android:fontFamily="@font/antic_reguler"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/continus"
+        android:layout_width="90dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25sp"
+        android:layout_gravity="right"
+        android:background="@drawable/shape1"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

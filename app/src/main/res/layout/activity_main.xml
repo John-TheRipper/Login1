@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="1080px"
+        android:layout_height="1584px"
+        android:background="@drawable/bagroud" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Akun Adobe "
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:fontFamily="@font/antic_reguler"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/cabin_regular"
+        android:paddingLeft="110dp"
+        android:paddingRight="110dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="@string/reg"
+        android:background="@null"
+        android:textAllCaps="false"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Atau login dengan"
+                android:textSize="12sp"
+                android:textColor="@color/atau"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/cabin_regular"
+                />
+
+            <ImageView
+                android:layout_width="230px"
+                android:layout_height="65px"
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/facbook_icon"
+                />
+
+            <ImageView
+                android:layout_width="195px"
+                android:layout_height="68px"
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/google_icon"
+                />
+
+            <ImageView
+                android:layout_width="163px"
+                android:layout_height="67px"
+                android:background="@drawable/apple_icon"
+                />
+        </LinearLayout>
+</LinearLayout>

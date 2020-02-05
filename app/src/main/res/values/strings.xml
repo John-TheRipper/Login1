@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="pass">password</string>
+    <string name="reg">Belum memiliki akun? <font color='#1473e7'>Daftar</font></string>
+    <string name="reg2">New user? <font color='#1473e7'>Create an account</font></string>
+    <string name="reset_pass"><font color='#1473e7'>Reset your password</font></string>
+    <string name="sign_dif"><font color='#1473e7'>sign in to a different account</font></string>
+    <string name="policy"><font color='#c9c9c9'>proted by reCAPTCHA and subject to the Google </font><font color='#1473e7'>Privacy policy</font><font color='#c9c9c9'> and </font><font color='#1473e7'>Terms of service</font></string>
+</resources>
+
